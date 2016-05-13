@@ -1,2 +1,3 @@
 # FileTranfer_JavaSocket
-use 'file {origin file path} [{remote file path}]' 
+use '''batch
+  file {origin file path} [{remote file path}]''' 
