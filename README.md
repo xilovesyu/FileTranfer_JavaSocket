@@ -1,8 +1,10 @@
 # FileTranfer_JavaSocket
-use
+##run jar:
 ```batch
-  file {origin file path} [{remote file path}]
+  java -jar ComunicationServer.jar
+  java -jar ComunicationClient.jar {IP that you want to connect}
 ```
+##when you run ComunicationClient.jar use 
 ```Java
-public static void main(String[]args){} //Java
+ file {origin_file_path} [{remote_file_path}]
 ```
